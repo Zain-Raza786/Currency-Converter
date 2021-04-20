@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            NavigationLink(destination: Text("SecondView")) {
+                Text("Convert")
+            }
+            .navigationBarTitle("Currency Converter")
+        }
     }
 }
 
