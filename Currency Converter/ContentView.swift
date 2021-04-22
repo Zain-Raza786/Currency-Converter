@@ -29,3 +29,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 // Yawar wrote this
+let apiKey = "?rapidapi-key=9486780fb380e1b81dfd"
