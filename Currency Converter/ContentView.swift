@@ -7,19 +7,32 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView : View {
     @State var amount: String = ""
     var body: some View {
         NavigationView {
-            NavigationLink(destination: Text("SecondView")) {
+            VStack {
+                Text("Currency Converter")
+                    .font(.largeTitle)
+                    .fontWeight(.medium)
+                    .foregroundColor(Color.yellow)
+                Spacer()
                 TextField("Amount in USD", text: $amount)
-                    .keyboardType(.numberPad)
-                Text("Convert")
-                    .keyboardType(.numberPad)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .keyboardType(.decimalPad)
+                    .foregroundColor(.blue)
+                Spacer()
+                NavigationLink(destination: SecondView()) {
+                    Text("Convert")
+                        .frame(minWidth: 0, maxWidth: 300)
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
+                        .cornerRadius(40)
+                        .font(.title)
+                }
             }
-            .navigationBarTitle("Currency Converter")
         }
-        
     }
 }
 
@@ -28,5 +41,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-// Yawar wrote this
-let apiKey = "?rapidapi-key=9486780fb380e1b81dfd"
+
+
+

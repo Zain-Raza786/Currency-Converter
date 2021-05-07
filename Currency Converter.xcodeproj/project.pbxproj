@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FBFDC222641D56D00AFB257 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDC212641D56D00AFB257 /* SecondView.swift */; };
 		3FD1CA02261F59CE009C9F2C /* Currency_ConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1CA01261F59CE009C9F2C /* Currency_ConverterApp.swift */; };
 		3FD1CA04261F59CE009C9F2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1CA03261F59CE009C9F2C /* ContentView.swift */; };
 		3FD1CA06261F59D4009C9F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1CA05261F59D4009C9F2C /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FBFDC212641D56D00AFB257 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		3FD1C9FE261F59CE009C9F2C /* Currency Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Currency Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD1CA01261F59CE009C9F2C /* Currency_ConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency_ConverterApp.swift; sourceTree = "<group>"; };
 		3FD1CA03261F59CE009C9F2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				3FD1CA01261F59CE009C9F2C /* Currency_ConverterApp.swift */,
 				3FD1CA03261F59CE009C9F2C /* ContentView.swift */,
+				3FBFDC212641D56D00AFB257 /* SecondView.swift */,
 				3FD1CA05261F59D4009C9F2C /* Assets.xcassets */,
 				3FD1CA0A261F59D4009C9F2C /* Info.plist */,
 				3FD1CA07261F59D4009C9F2C /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBFDC222641D56D00AFB257 /* SecondView.swift in Sources */,
 				3FD1CA04261F59CE009C9F2C /* ContentView.swift in Sources */,
 				3FD1CA02261F59CE009C9F2C /* Currency_ConverterApp.swift in Sources */,
 			);
