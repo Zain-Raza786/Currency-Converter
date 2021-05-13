@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView : View {
-    @State var amount: String = ""
+    @State var amount: String = "0.0"
     var body: some View {
         NavigationView {
             VStack {
@@ -19,10 +19,11 @@ struct ContentView : View {
                 Spacer()
                 TextField("Amount in USD", text: $amount)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .multilineTextAlignment(.center)
                     .keyboardType(.decimalPad)
                     .foregroundColor(.blue)
                 Spacer()
-                NavigationLink(destination: SecondView()) {
+                NavigationLink(destination: SecondView(amount: Double(amount) ?? 0.0)) {
                     Text("Convert")
                         .frame(minWidth: 0, maxWidth: 300)
                         .padding()

@@ -12,6 +12,7 @@
 		3FD1CA04261F59CE009C9F2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1CA03261F59CE009C9F2C /* ContentView.swift */; };
 		3FD1CA06261F59D4009C9F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1CA05261F59D4009C9F2C /* Assets.xcassets */; };
 		3FD1CA09261F59D4009C9F2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1CA08261F59D4009C9F2C /* Preview Assets.xcassets */; };
+		3FD3EB35264B09F400834894 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD3EB34264B09F400834894 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3FD1CA05261F59D4009C9F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FD1CA08261F59D4009C9F2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FD1CA0A261F59D4009C9F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD3EB34264B09F400834894 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3FD1CA01261F59CE009C9F2C /* Currency_ConverterApp.swift */,
 				3FD1CA03261F59CE009C9F2C /* ContentView.swift */,
+				3FD3EB34264B09F400834894 /* SwiftyJSON.swift */,
 				3FBFDC212641D56D00AFB257 /* SecondView.swift */,
 				3FD1CA05261F59D4009C9F2C /* Assets.xcassets */,
 				3FD1CA0A261F59D4009C9F2C /* Info.plist */,
@@ -144,6 +147,7 @@
 				3FBFDC222641D56D00AFB257 /* SecondView.swift in Sources */,
 				3FD1CA04261F59CE009C9F2C /* ContentView.swift in Sources */,
 				3FD1CA02261F59CE009C9F2C /* Currency_ConverterApp.swift in Sources */,
+				3FD3EB35264B09F400834894 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
